@@ -1,0 +1,57 @@
+
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+
+
+body {
+  background-color: #252325;
+}
+ 
+#pageContainer {
+  width: 940px;
+  height: 505px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+}
+ 
+#imageContainer {
+  float: left;
+  width: 620px;
+}
+ 
+#textContainer {
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+img {
+  width: 100%;
+}
+ 
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 39px;
+  color: #332117;
+}
+ 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #161519;
+}
+
+#date {
+  margin-top: 200px;
+  font-size: 14px;
+  text-align: center;
+  color: #161519;
+}
